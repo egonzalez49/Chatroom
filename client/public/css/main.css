@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+  padding-left: 50px !important;
+  position: absolute;
+  bottom: 0px;
+}
+
+.no-margin {
+  margin: 0px !important;
+  padding: 0px !important;
+  text-decoration: none !important;
+  color: #ff6361 !important;
+}
+
+body,
+html {
+  height: 100% !important;
+  width: 100% !important;
+  min-height: 100% !important;
+  margin: 0 !important;
+  font-family: Montserrat !important;
+  color: #443d3d !important;
+  background-color: #ff6361 !important;
+}
+
+#root {
+  min-height: 100% !important;
+}
+
+.container {
+  box-shadow: 0px 0px 20px 0px rgba(68, 61, 61, 0.6) !important;
+  display: block !important;
+  position: relative !important;
+  min-height: 100vh !important;
+  background-color: #faf9f9 !important;
+  padding: 0 !important;
+}
+
+.app-nav {
+}
+
+.link {
+  color: #443d3d !important;
+}
+
+.link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #ff6361;
+  transition: width 0.3s;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+.button {
+  background-color: #ff6361 !important;
+  border: none !important;
+}
+
+.button-2 {
+  border: 1px solid #ff6361 !important;
+  background-color: #faf9f9 !important;
+  color: #443d3d !important;
+}
+
+.vertical-divider {
+  border-left: 1px solid #e6dfdf;
+  height: 75vh;
+  margin: 0 26px;
+  right: 0;
+  top: 0;
+}

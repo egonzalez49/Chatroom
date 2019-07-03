@@ -1,0 +1,48 @@
+.chatroom-div {
+  padding: 24px 48px;
+}
+
+.chat-list {
+  flex-basis: 65vh;
+  overflow-y: auto;
+  border-top: 3px solid #f0ecec !important;
+  border-bottom: 3px solid #f0ecec !important;
+}
+
+.comment-div {
+  flex-basis: 8vh;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar-small {
+  margin-top: 4px;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+
+.comment-time {
+  padding: 0px 12px !important;
+  display: inline !important;
+  font-size: 0.65em;
+}
+
+.comment-container {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.comment-name {
+  font-weight: bold;
+  display: inline !important;
+}
+
+.chat-bubble {
+  background-color: #f0ecec;
+  padding: 8px 16px;
+  display: inline-block;
+}

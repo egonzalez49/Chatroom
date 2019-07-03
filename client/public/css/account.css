@@ -1,0 +1,18 @@
+.avatar {
+  border-radius: 50%;
+  width: 152px;
+  height: 152px;
+}
+
+.account-div {
+  min-height: 100% !important;
+}
+
+.row-account {
+  min-height: 100% !important;
+}
+
+.center-image {
+  display: table;
+  margin: auto;
+}
